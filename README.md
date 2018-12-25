@@ -1,6 +1,6 @@
 CSC309-Fall-2018 - Programming on the Web
 
-Team 52 final project.
+deplyed on https://swaphub.herokuapp.com
 
 Commit Emoji convention
 
