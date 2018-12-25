@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
+const config = require('../config')
 
 // connect to our database
-mongoose.connect('***REMOVED***', { useNewUrlParser: true});
+mongoose.connect(config.mLabURL, { useNewUrlParser: true});
 
 module.exports = { mongoose }

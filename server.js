@@ -8,6 +8,7 @@ const session = require('express-session')
 const {ObjectID} = require('mongodb')
 const date = require('date-and-time');
 const imageBaseURL = "https://csc309.blob.core.windows.net/swaphub/"
+const config = require('./config')
 
 // Import our mongoose connection
 const {mongoose} = require('./db/mongoose');
@@ -33,7 +34,7 @@ const
     , signUploadStrategy = multer({storage: inMemoryStorage}).single("profilePic")
     , azureStorage = require('azure-storage')
     ,
-    blobService = azureStorage.createBlobService("***REMOVED***")
+    blobService = azureStorage.createBlobService(config.azureConnectionString)
 
     , getStream = require('into-stream')
     , containerName = 'swaphub'
