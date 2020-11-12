@@ -1,21 +1,17 @@
-CSC309-Fall-2018 - Programming on the Web
+# CSC309-Fall-2018 - Programming on the Web
+Web course @ UofT
 
-deplyed on https://swaphub.herokuapp.com
+deployed on https://swaphub.herokuapp.com
 
-Commit Emoji convention
 
-📝 Add comment or doc
 
-🎁 New feature
+# Commit Emoji convention
 
-🐛 Bug fix
-
-💣 Breaking compatibility
-
-✅ Write test
-
-🔥 Remove something
-
-🙏 Hope not to break anything
-
-🍺 Anything else
+- :memo: Add comment or doc
+- :gift: New feature
+- :bug: Bug fix
+- :bomb: Breaking compatibility
+- :white_check_mark: Write test
+- :fire: Remove something
+- :pray: Hope not to break anything
+- :beer: Anything else
